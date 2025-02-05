@@ -2,6 +2,7 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 	margin: 0 auto;
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 }
 .homePage {
 	background: #324135;
@@ -10,7 +11,8 @@ body {
 	width: 960px;
 	margin: 0 auto;
 }
-.header {
+.header { 
+	
 	background: #CC9181;
 	text-align: center;
 	margin: 0px;
@@ -21,7 +23,7 @@ body {
 	
 }
 .nav {
-	background: #E4D034;
+	background: #B30D00;
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -44,3 +46,11 @@ body {
 	height: 50px;
 	text-align: center;
 }
+a:link {
+     color: #FFFFFF;
+}
+a:visited {
+     color: #000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
